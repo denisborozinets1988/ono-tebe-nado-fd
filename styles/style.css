@@ -18,6 +18,14 @@
   gap: 30px;
 }
 
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
 .header__link {
   padding-left: 3px;
   text-decoration: underline;
@@ -26,14 +34,6 @@
 
 .header__link-active {
   text-decoration: none;
-}
-
-.header__links-list-item {
-  list-style: circle;
-}
-
-.header__links-list-item_no-bullit {
-  list-style: none;
 }
 
 .header__logo {
